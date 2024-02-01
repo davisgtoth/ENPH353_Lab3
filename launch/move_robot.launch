@@ -1,0 +1,8 @@
+<launch>
+   <!-- My Package launch file -->
+   <node pkg="enph353_ros_lab"
+         type="line_following.py"
+         name="line_following" 
+         output="screen">
+   </node>
+</launch>
